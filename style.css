@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    background-color: #ffffff;
+}
+li a{
+
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+  
+  }
+  
+  ul{
+    
+    display: flex; /* Ativa a propriedade de alinhamento*/
+    justify-content: row; /*Coloca os elementos na horizontal*/
+    align-items: center;
+
+  }
+  
+  li{
+    
+    list-style: none; /* Remove os pontos da lista*/
+  
+  }
+  
+  nav{
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ffffff;
+
+  }
+  
+  .logo{
+  
+    height: 30px;
+    width: 100px;
+    
+  }
+
+  .estrutura-das-caixas{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    margin: 10px 0;  
+    gap: 10px;
+   
+  }
+
+  .texto-sen{
+    
+    font-size: 14px;
+    border: 1px solid black;
+    border-radius: 30px; 
+    padding: 5px 10px;
+    
+  }
+
+  .card{
+
+    color: black;
+    border: 10px;
+    border: solid;
+    width: 300px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px; 
+    justify-content: start;
+    text-align: center;
+    padding: 10px;
+
+  }
+
+  .titulo5{
+    
+    font-size: 12px;
+    margin-bottom: 0;;
+  
+  }
+  
+  .frase{
+    
+    margin-top: 5px; 
+    font-size: 15px;
+    padding-top: 0;
+  }
+
+  .saibamais{
+    background-color: white; 
+    color: red; 
+    border: 2px solid red; 
+    border-radius: 999px; 
+    display: block; 
+    width: 90%; 
+    padding: 10px;
+    margin: 10px auto;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .inscrevase{
+    background-color: red; 
+    color: black; 
+    border: 1px solid red; 
+    display: block;
+    width: 90%; 
+    padding: 10px;
+    margin: 5px auto; 
+    text-align: center;
+    border-radius: 999px; 
+    cursor: pointer;
+
+  }
+
+  .card-universal{
+    
+    display: flex;
+    align-items: center;
+    flex-direction:row;
+    gap: 10px;
+    margin: 10px;
+    padding-left: 180px;
+
+  }
